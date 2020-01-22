@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  app.luck4me.admin:
+    build: .
+    ports:
+    - 80:80
+    volumes:
+      - ./:/var/www/html
